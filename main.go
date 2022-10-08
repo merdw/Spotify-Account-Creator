@@ -17,6 +17,8 @@ var (
 
 func main() {
 
+	fmt.Println("\n                        _          \n _ __ ___   ___ _ __ __| |_      __\n| '_ ` _ \\ / _ \\ '__/ _` \\ \\ /\\ / /\n| | | | | |  __/ | | (_| |\\ V  V / \n|_| |_| |_|\\___|_|  \\__,_| \\_/\\_/  \n                                   \n")
+	fmt.Println("merdw Spotify Account Creator\n")
 	fmt.Print("How many account will be created?: ")
 	fmt.Scanln(&manyacc)
 
@@ -24,7 +26,9 @@ func main() {
 		runu()
 		fmt.Printf("Created %d. account\n", i+1)
 	}
-	fmt.Printf("Finished Created %d Accounts", manyacc)
+	fmt.Printf("Finished Created %d Accounts\n", manyacc)
+	fmt.Println("Press any key to exit all accounts saved in text.")
+	fmt.Scanln()
 }
 
 func runu() {
